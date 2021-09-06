@@ -1,0 +1,204 @@
+:root{
+    --head: #161414;
+}
+
+*{
+    text-decoration: none;
+}
+html{
+    font-size: 14px;
+}
+body{
+    min-width: 300px;
+    max-width: 1600px;
+    height: 500px;
+    background-color: rgb(204, 203, 203);
+}
+
+/* Profile Start  */
+
+header{
+    display: block;
+}
+
+.profile{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: auto auto;
+    grid-column: auto;
+    grid-gap: 3rem;
+    padding: 10px;
+}
+
+img {
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.profile > div > a > img{
+    width: 100%;
+}
+
+.content,.content>a{
+    font-size: 1.5vw;
+    padding-top: 19vw;
+    color: #323538;
+}
+
+.content > a > h1{
+    color: var(--head);
+}
+
+/* Profile End */
+
+/* Skills and Projects Start */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column: auto;
+    grid-gap: 3rem;
+    padding: 10px;
+}
+
+.head{
+    font-size: 2.5vw;
+    color: var(--head);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.title{
+    padding: 10px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/* Skills Start  */
+
+.skills{
+    padding: 1vw;
+    margin: 2vw;
+    margin-right: 0;
+}
+
+#progressbar {
+    background-color: #323538;
+    border-radius: 13px;
+    padding: 3px;
+}
+
+#progressbar>div {
+    background-color: orange;
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+/* Skills End  */
+
+/* Projects Start  */
+
+.projects{
+    padding: 1vw;
+    margin: 2vw;
+}
+
+.team{
+    padding: 2vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.project{
+    padding-bottom: 1.5vw;
+}
+
+.project > .header {
+    display: inline-block; 
+    width: 100%;
+}
+.project > .header > .title {
+    float: left;
+}
+.project > .header > .team {
+    float: right;
+}
+
+.description > ul > li{
+    padding: 0.5vw;
+    font-size: 1.5vw;
+}
+
+/* Projects End  */
+
+/* Med screen resolution Start */
+
+@media only screen and (max-width: 850px) {
+    .profile{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: auto;
+        grid-column: auto;
+        padding: 10px;
+    }
+    .content,.content>a{
+        grid-row-start: 2;
+        font-size: 2.5vw;
+        padding-top: 2vw;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0rem;
+    }
+
+    .head{
+        font-size: 5vw;
+    }
+
+    .title{
+        font-size: 3vw;
+    }
+
+    .skills{
+        padding: 5vw;
+        padding-top: 0;
+    }
+
+    .projects{
+        grid-row-start: 2;
+        font-size: 2.5vw;
+    }
+
+    .team{
+        padding: 2vw;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+    
+    .project{
+        padding-bottom: 1.5vw;
+    }
+    
+    .project > .header {
+        display: inline-block; 
+        width: 100%;
+    }
+    .project > .header > .title {
+        float: left;
+    }
+    .project > .header > .team {
+        float: right;
+    }
+    
+    .description > ul > li{
+        padding: 0.5vw;
+        font-size: 2.5vw;
+    }
+}
+
+/* Med screen resolution End */
