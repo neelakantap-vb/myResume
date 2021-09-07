@@ -2,215 +2,232 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neelakanta Gouda Patil | Valuebound</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     
+    <!-- Custom css -->
     <link href="static/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <div class="container"> 
+        <header>
 
-        <!-- Profile Start -->
+            <!-- Profile Start -->
 
-        <div class="profile">
+            <div class="row justify-content-between">
+                
+                <!-- Profile Pic Start -->
 
-            <!-- Profile Details Start -->
-            
-            <div class="content">
-                <a href="https://www.valuebound.com/">
-                    <h1>NEELAKANTA GOUDA PATIL</h1>
-                </a>
-                <a href="mailto:neelakanta.p@valuebound.com">
-                    <h2>neelakanta.p@valuebound.com</h2>
-                </a>
-                <a href="tel:+919513170354">
-                    <h2>9513170354</h2>
-                </a>
+                <div class="col-md-5 order-md-2 p-2 text-center">
+                    <a href="https://www.valuebound.com/">
+                        <img src="static/img/me.png" alt="nbpatil" class="img-fluid">
+                    </a>
+                </div>
+
+                <!-- Profile Pic End -->
+
+                <!-- Profile Details Start -->
+                
+                <div class="col-md-6 content p-3 text-center">
+                    <a href="https://www.valuebound.com/">
+                        <h1>NEELAKANTA GOUDA PATIL</h1>
+                    </a>
+                    <a href="mailto:neelakanta.p@valuebound.com">
+                        <h2>neelakanta.p@valuebound.com</h2>
+                    </a>
+                    <a href="tel:+919513170354">
+                        <h2>9513170354</h2>
+                    </a>
+                </div>
+
+                <!-- Profile Details End -->
+                
             </div>
 
-            <!-- Profile Details End -->
-            
-            <!-- Profile Pic Start -->
+            <!-- Profile End -->
 
-            <div>
-                <a href="https://www.valuebound.com/">
-                    <img src="static/img/me.png" width="200px" alt="nbpatil">
-                </a>
-            </div>
-
-            <!-- Profile Pic End -->
-            
-        </div>
-
-        <!-- Profile End -->
-
-    </header>
-
-    <div class="grid-container">
-
-        <!-- Skills start -->
-
-        <div class="skills">
-
-            <!-- Skills head Start -->
-            
-            <div class="head">
-                <h4>Skills</h4>
-            </div>
-
-            <!-- Skills head End -->
-
-            <!-- Skills content Start -->
-            
-            <div class="skill">
-                <div class="title">
-                    HTML
-                </div>
-                <div id="progressbar">
-                    <div style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    CSS
-                </div>
-                <div id="progressbar">
-                    <div></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    JavaScript
-                </div>
-                <div id="progressbar">
-                    <div></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    PHP
-                </div>
-                <div id="progressbar">
-                    <div></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    MySQL
-                </div>
-                <div id="progressbar">
-                    <div></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    Bootstrap
-                </div>
-                <div id="progressbar">
-                    <div></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    GIT
-                </div>
-                <div id="progressbar">
-                    <div style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    GitHub
-                </div>
-                <div id="progressbar">
-                    <div style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    Python
-                </div>
-                <div id="progressbar">
-                    <div style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    C
-                </div>
-                <div id="progressbar">
-                    <div style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="title">
-                    Java
-                </div>
-                <div id="progressbar">
-                    <div></div>
-                </div>
-            </div>
-
-            <!-- Skills content End -->
-            
-        </div>
-
-        <!-- Skills end -->
-
-        <!-- Projects Start -->
-
-        <div class="projects">
-
-            <!-- Projects head Start -->
-            
-            <div class="head">
-                <h4>Projects</h4>
-            </div>
-
-            <!-- Projects head End -->
-
-            <!-- Projects content Start -->
-            
-            <div class="project">
-                <div class="header">
-                    <div class="title">ChatNode</div>
-                    <div class="team">3 Members</div>
-                </div>
-                <div class="description">
-                    <ul>
-                        <li>ChatNode is an open-source social media platform with one condition. The user needs to contribute to get contributed.
-                        </li>
-                        <li>In this platform, the users can post their projects, research work, courses, and any other valid documents.</li>
-                        <li>Initially, the user is awarded 10 credit points as a joining bonus.</li>
-                        <li>The user can use these points for accessing the works or documents posted by the other users.</li>
-                        <li>For accessing each work the user's account will be debited by 1 point.</li>
-                        <li>And for the user account whose work has been accessed will be credited by 1 point.</li>
-                        <li>Hence, there is only one condition for this platform. That is <strong>"The user needs to contribute to get contributed"</strong>.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="header">
-                    <div class="title">Adroit</div>
-                    <div class="team">1 Member</div>
-                </div>
-                <div class="description">
-                    <ul>
-                        <li>Adroit is an e-learning platform for learners to study and get knowledge with new things and technologies.</li>
-                        <li>This platform consists of many courses, where the learner can choose whichever he/she is interested in.</li>
-                        <li>These courses consist of video lectures, notes, images, and quizzes.</li>
-                        <li>The learner will be awarded an auto-generated e-certificate on completion of the course and securing qualifying marks in the quizzes.</li>
-                        <li>There is also an admin section on this platform, where the admin can monitor his revenue, courses, enrollments, and members.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Projects content End -->
-            
-        </div>
-
-        <!-- Projects End -->
-
+        </header>
     </div>
+    <div class="container">
+        <div class="row justify-content-between p-4">
+            <!-- Skills start -->
+
+            <div class="col-md-4 p-2 skills">
+
+                <!-- Skills head Start -->
+                
+                <div class="head">
+                    <h4>Skills</h4>
+                </div>
+
+                <!-- Skills head End -->
+
+                <!-- Skills content Start -->
+                
+                <div class="skill">
+                    <div class="title">
+                        HTML
+                    </div>
+                    <div id="progressbar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        CSS
+                    </div>
+                    <div id="progressbar">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        JavaScript
+                    </div>
+                    <div id="progressbar">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        PHP
+                    </div>
+                    <div id="progressbar">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        MySQL
+                    </div>
+                    <div id="progressbar">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        Bootstrap
+                    </div>
+                    <div id="progressbar">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        GIT
+                    </div>
+                    <div id="progressbar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        GitHub
+                    </div>
+                    <div id="progressbar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        React
+                    </div>
+                    <div id="progressbar">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        Python
+                    </div>
+                    <div id="progressbar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        C
+                    </div>
+                    <div id="progressbar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="title">
+                        Java
+                    </div>
+                    <div id="progressbar">
+                        <div></div>
+                    </div>
+                </div>
+
+                <!-- Skills content End -->
+                
+            </div>
+
+            <!-- Skills end -->
+
+            <!-- Projects Start -->
+
+            <div class="col-md-7 p-2 projects">
+
+                <!-- Projects head Start -->
+                
+                <div class="head">
+                    <h4>Projects</h4>
+                </div>
+
+                <!-- Projects head End -->
+
+                <!-- Projects content Start -->
+                
+                <div class="project">
+                    <div class="header">
+                        <div class="title">ChatNode</div>
+                        <div class="team">3 Members</div>
+                    </div>
+                    <div class="description">
+                        <ul>
+                            <li>ChatNode is an open-source social media platform with one condition. The user needs to contribute to get contributed.</li>
+                            <li>In this platform, the users can post their projects, research work, courses, and any other valid documents.</li>
+                            <li>Initially, the user is awarded 10 credit points as a joining bonus.</li>
+                            <li>The user can use these points for accessing the works or documents posted by the other users.</li>
+                            <li>For accessing each work the user's account will be debited by 1 point.</li>
+                            <li>And for the user account whose work has been accessed will be credited by 1 point.</li>
+                            <li>Hence, there is only one condition for this platform. That is <strong>"The user needs to contribute to get contributed"</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="header">
+                        <div class="title">Adroit</div>
+                        <div class="team">1 Member</div>
+                    </div>
+                    <div class="description">
+                        <ul>
+                            <li>Adroit is an e-learning platform for learners to study and get knowledge with new things and technologies.</li>
+                            <li>This platform consists of many courses, where the learner can choose whichever he/she is interested in.</li>
+                            <li>These courses consist of video lectures, notes, images, and quizzes.</li>
+                            <li>The learner will be awarded an auto-generated e-certificate on completion of the course and securing qualifying marks in the quizzes.</li>
+                            <li>There is also an admin section on this platform, where the admin can monitor his revenue, courses, enrollments, and members.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Projects content End -->
+                
+            </div>
+
+            <!-- Projects End -->
+
+        </div>
+    </div>
+
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
